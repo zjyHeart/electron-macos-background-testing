@@ -1,0 +1,13 @@
+{
+  "name": "electron-macos-background-testing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A macOS Electron background test preload and isolated probe",
+  "scripts": {
+    "test": "node --test background-electron.test.cjs"
+  },
+  "devDependencies": {
+    "electron": "41.10.7",
+    "playwright": "1.63.0"
+  }
+}
